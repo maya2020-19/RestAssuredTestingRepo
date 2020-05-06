@@ -1,6 +1,5 @@
 package com.employeeapi.testCases;
 
-
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -19,7 +18,7 @@ public class TC001_GET_Employees extends TestBase {
 	public void Get_AllEmployees() throws InterruptedException {
 
 		System.out.println("----Started TC001 GET ALL Employees----");
-		
+
 		RestAssured.baseURI = "https://dummy.restapiexample.com/api/v1";
 		httprequest = RestAssured.given();
 
@@ -30,7 +29,7 @@ public class TC001_GET_Employees extends TestBase {
 
 	@Test
 	void checkResponseBody() {
-	System.out.println("****Checking the Response Body****");
+		System.out.println("****Checking the Response Body****");
 		String responsebody = response.getBody().asString();
 		System.out.println("Response Body is --- " + responsebody);
 		Assert.assertTrue(responsebody != null);
@@ -89,11 +88,11 @@ public class TC001_GET_Employees extends TestBase {
 		}
 
 	}
-	
+
 	@AfterClass
-	
+
 	void tearDown() {
-		
+
 		System.out.println("-----Finished TC001 GET ALL Employees-----");
 	}
 
