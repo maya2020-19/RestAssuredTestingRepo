@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-06T22:34:19 IST" name="UserRestAPISuite" finished-at="2020-05-06T22:34:42 IST" duration-ms="22619">
+    <groups>
+    </groups>
+    <test started-at="2020-05-06T22:34:19 IST" name="User_Rest API_Test" finished-at="2020-05-06T22:34:42 IST" duration-ms="22619">
+      <class name="com.user.testcases1.TC02_GET_SingleUser">
+        <test-method is-config="true" signature="Get_An_user()[pri:0, instance:com.user.testcases1.TC02_GET_SingleUser@2f7c2f4f]" started-at="2020-05-06T22:34:26 IST" name="Get_An_user" finished-at="2020-05-06T22:34:30 IST" duration-ms="3650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_An_user -->
+        <test-method signature="validate_reponsebody()[pri:1, instance:com.user.testcases1.TC02_GET_SingleUser@2f7c2f4f]" started-at="2020-05-06T22:34:30 IST" name="validate_reponsebody" finished-at="2020-05-06T22:34:30 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_reponsebody -->
+        <test-method signature="validate_ResponseTime()[pri:2, instance:com.user.testcases1.TC02_GET_SingleUser@2f7c2f4f]" started-at="2020-05-06T22:34:30 IST" name="validate_ResponseTime" finished-at="2020-05-06T22:34:30 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_ResponseTime -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.user.testcases1.TC02_GET_SingleUser@2f7c2f4f]" started-at="2020-05-06T22:34:30 IST" name="teardown" finished-at="2020-05-06T22:34:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.user.testcases1.TC02_GET_SingleUser -->
+      <class name="com.user.testcases1.TC06_DELETE_User">
+        <test-method is-config="true" signature="Delete_Emp()[pri:0, instance:com.user.testcases1.TC06_DELETE_User@7880cdf3]" started-at="2020-05-06T22:34:36 IST" name="Delete_Emp" finished-at="2020-05-06T22:34:42 IST" duration-ms="5758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Emp -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.user.testcases1.TC06_DELETE_User@7880cdf3]" started-at="2020-05-06T22:34:42 IST" name="checkResponseBody" finished-at="2020-05-06T22:34:42 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.user.testcases1.TC06_DELETE_User@7880cdf3]" started-at="2020-05-06T22:34:42 IST" name="teardown" finished-at="2020-05-06T22:34:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.user.testcases1.TC06_DELETE_User -->
+      <class name="com.user.testcases1.TC03_GET_SingleUser_NotFound">
+        <test-method is-config="true" signature="GET_user()[pri:0, instance:com.user.testcases1.TC03_GET_SingleUser_NotFound@6af93788]" started-at="2020-05-06T22:34:30 IST" name="GET_user" finished-at="2020-05-06T22:34:33 IST" duration-ms="3589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_user -->
+        <test-method signature="validate_responsebody()[pri:1, instance:com.user.testcases1.TC03_GET_SingleUser_NotFound@6af93788]" started-at="2020-05-06T22:34:33 IST" name="validate_responsebody" finished-at="2020-05-06T22:34:33 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_responsebody -->
+        <test-method signature="validate_statuscode()[pri:2, instance:com.user.testcases1.TC03_GET_SingleUser_NotFound@6af93788]" started-at="2020-05-06T22:34:33 IST" name="validate_statuscode" finished-at="2020-05-06T22:34:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_statuscode -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.user.testcases1.TC03_GET_SingleUser_NotFound@6af93788]" started-at="2020-05-06T22:34:33 IST" name="teardown" finished-at="2020-05-06T22:34:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.user.testcases1.TC03_GET_SingleUser_NotFound -->
+      <class name="com.user.testcases1.TC04_POST_User">
+        <test-method is-config="true" signature="create_user()[pri:0, instance:com.user.testcases1.TC04_POST_User@ef9296d]" started-at="2020-05-06T22:34:33 IST" name="create_user" finished-at="2020-05-06T22:34:34 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_user -->
+        <test-method signature="statuscode()[pri:0, instance:com.user.testcases1.TC04_POST_User@ef9296d]" started-at="2020-05-06T22:34:34 IST" name="statuscode" finished-at="2020-05-06T22:34:34 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statuscode -->
+        <test-method signature="validate_response()[pri:0, instance:com.user.testcases1.TC04_POST_User@ef9296d]" started-at="2020-05-06T22:34:34 IST" name="validate_response" finished-at="2020-05-06T22:34:35 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_response -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.user.testcases1.TC04_POST_User@ef9296d]" started-at="2020-05-06T22:34:35 IST" name="teardown" finished-at="2020-05-06T22:34:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.user.testcases1.TC04_POST_User -->
+      <class name="com.user.testcases1.TC05_PUT_UpdateUser">
+        <test-method is-config="true" signature="update_user()[pri:0, instance:com.user.testcases1.TC05_PUT_UpdateUser@36c88a32]" started-at="2020-05-06T22:34:35 IST" name="update_user" finished-at="2020-05-06T22:34:36 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_user -->
+        <test-method signature="validate_response()[pri:0, instance:com.user.testcases1.TC05_PUT_UpdateUser@36c88a32]" started-at="2020-05-06T22:34:36 IST" name="validate_response" finished-at="2020-05-06T22:34:36 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_response -->
+        <test-method signature="validate_status()[pri:0, instance:com.user.testcases1.TC05_PUT_UpdateUser@36c88a32]" started-at="2020-05-06T22:34:36 IST" name="validate_status" finished-at="2020-05-06T22:34:36 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_status -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.user.testcases1.TC05_PUT_UpdateUser@36c88a32]" started-at="2020-05-06T22:34:36 IST" name="teardown" finished-at="2020-05-06T22:34:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.user.testcases1.TC05_PUT_UpdateUser -->
+      <class name="com.user.testcases1.TC01_Get_UserDetails">
+        <test-method is-config="true" signature="GET_user()[pri:0, instance:com.user.testcases1.TC01_Get_UserDetails@1b1473ab]" started-at="2020-05-06T22:34:19 IST" name="GET_user" finished-at="2020-05-06T22:34:26 IST" duration-ms="6473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_user -->
+        <test-method signature="validate_responsebody()[pri:1, instance:com.user.testcases1.TC01_Get_UserDetails@1b1473ab]" started-at="2020-05-06T22:34:26 IST" name="validate_responsebody" finished-at="2020-05-06T22:34:26 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_responsebody -->
+        <test-method signature="validate_statuscode()[pri:2, instance:com.user.testcases1.TC01_Get_UserDetails@1b1473ab]" started-at="2020-05-06T22:34:26 IST" name="validate_statuscode" finished-at="2020-05-06T22:34:26 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_statuscode -->
+        <test-method signature="validate_headers()[pri:3, instance:com.user.testcases1.TC01_Get_UserDetails@1b1473ab]" started-at="2020-05-06T22:34:26 IST" name="validate_headers" finished-at="2020-05-06T22:34:26 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_headers -->
+        <test-method signature="validate_AllHeaders()[pri:4, instance:com.user.testcases1.TC01_Get_UserDetails@1b1473ab]" started-at="2020-05-06T22:34:26 IST" name="validate_AllHeaders" finished-at="2020-05-06T22:34:26 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_AllHeaders -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.user.testcases1.TC01_Get_UserDetails@1b1473ab]" started-at="2020-05-06T22:34:26 IST" name="teardown" finished-at="2020-05-06T22:34:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.user.testcases1.TC01_Get_UserDetails -->
+    </test> <!-- User_Rest API_Test -->
+  </suite> <!-- UserRestAPISuite -->
+</testng-results>
